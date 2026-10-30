@@ -1,0 +1,40 @@
+///
+/// SCSS functions
+///
+
+@use 'sass:meta';
+@use 'sass:string';
+@use 'sass:color';
+
+// Convert a hex color value to an rgb value.
+@function rgb( $hex ) {
+	@return "rgb( #{color.channel( $hex, 'red' )}, #{color.channel( $hex, 'green' )}, #{color.channel( $hex, 'blue' )} )";
+}
+
+///
+/// Output hex color value
+///
+/// The `lighten()` and `darken()` functions want to output
+/// rgb values. This ensures a hex return value.
+///
+@function hex( $color ) {
+	@if meta.type-of( $color ) == 'color' {
+		$hex: string.slice( color.ie-hex-str( $color ), 4 );
+		$color: string.unquote( '#{$hex}' );
+
+		@return '#' + string.to-lower-case( $color );
+	}
+	@return currentColor;
+}
+
+// Lighten a color by mixing with white.
+@function lighten( $color, $weight ) {
+	$tint: color.mix( #ffffff, $color, $weight );
+	@return hex( $tint );
+}
+
+// Darken a color by mixing with black.
+@function darken( $color, $weight ) {
+	$shade: color.mix( #000000, $color, $weight );
+	@return hex( $shade );
+}

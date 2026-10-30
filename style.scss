@@ -1,0 +1,105 @@
+///
+/// CSS properties
+///
+/// General properties for color scheme option.
+///
+
+@use 'sass:map';
+@use 'colors' as c;
+
+:host,
+:root {
+	@each $name, $color in c.$red_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$orange_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$amber_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$yellow_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$lime_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$green_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$teal_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$cyan_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$blue_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$indigo_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$violet_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$purple_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$pink_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$brick_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$camel_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$brown_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$tan_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$khaki_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$olive_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$sage_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$slate_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$mauve_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$coral_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$salmon_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$peach_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$lemon_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$mint_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$aqua_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$sky_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$lavender_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$rose_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+}
