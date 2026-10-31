@@ -2,40 +2,98 @@
 /// SCSS variables
 ///
 
-// Modules in the primary colors directory.
+// Color functions.
 @use 'functions' as f;
 
-$red:      #ee0000 !default;
-$orange:   #ee6600 !default;
-$amber:    #ffcc44 !default;
-$yellow:   #ffee00 !default;
-$lime:     #00ee00 !default;
-$green:    #00bb00 !default;
-$teal:     #00ddaa !default;
-$cyan:     #00ccee !default;
-$blue:     #0044dd !default;
-$indigo:   #7800ee !default;
-$violet:   #7711bb !default;
-$purple:   #cc00aa !default;
-$pink:     #ff55dd !default;
-$coral:    #ff6666 !default;
-$salmon:   #ff9966 !default;
-$peach:    #ffcc99 !default;
-$lemon:    #ffff99 !default;
-$mint:     #aaffaa !default;
-$aqua:     #88ffee !default;
-$sky:      #99ccff !default;
-$lavender: #ccbbff !default;
-$rose:     #ffaacc !default;
-$brick:    #cc6666 !default;
-$camel:    #cc9966 !default;
-$brown:    #996600 !default;
-$tan:      #ccbb66 !default;
-$khaki:    #cccc99 !default;
-$olive:    #999966 !default;
-$sage:     #99bb99 !default;
-$slate:    #aaaabb !default;
-$mauve:    #ccaabb !default;
+$red:       #ee0000 !default;
+$orange:    #ee6600 !default;
+$amber:     #ffcc44 !default;
+$yellow:    #ffee00 !default;
+$lime:      #00ee00 !default;
+$green:     #00bb00 !default;
+$teal:      #00ddaa !default;
+$cyan:      #00ccee !default;
+$blue:      #0044dd !default;
+$indigo:    #7800ee !default;
+$violet:    #7711bb !default;
+$purple:    #cc00aa !default;
+$pink:      #ff55dd !default;
+$coral:     #ff6666 !default;
+$salmon:    #ff9966 !default;
+$peach:     #ffcc99 !default;
+$lemon:     #ffff99 !default;
+$mint:      #aaffaa !default;
+$aqua:      #88ffee !default;
+$sky:       #99ccff !default;
+$lavender:  #ccbbff !default;
+$rose:      #ffaacc !default;
+$brick:     #cc6666 !default;
+$camel:     #cc9966 !default;
+$brown:     #996600 !default;
+$tan:       #ccbb66 !default;
+$khaki:     #cccc99 !default;
+$olive:     #999966 !default;
+$sage:      #99bb99 !default;
+$slate:     #aaaabb !default;
+$mauve:     #ccaabb !default;
+$vanilla:   #ffffcc !default;
+$chocolate: #663300 !default;
+
+$color_map: (
+	'red'      : $red,
+	'orange'   : $orange,
+	'amber'    : $amber,
+	'yellow'   : $yellow,
+	'lime'     : $lime,
+	'green'    : $green,
+	'teal'     : $teal,
+	'cyan'     : $cyan,
+	'blue'     : $blue,
+	'indigo'   : $indigo,
+	'violet'   : $violet,
+	'purple'   : $purple,
+	'pink'     : $pink,
+	'coral'    : $coral,
+	'salmon'   : $salmon,
+	'peach'    : $peach,
+	'lemon'    : $lemon,
+	'mint'     : $mint,
+	'aqua'     : $aqua,
+	'sky'      : $sky,
+	'lavender' : $lavender,
+	'rose'     : $rose,
+	'brick'    : $brick,
+	'camel'    : $camel,
+	'brown'    : $brown,
+	'tan'      : $tan,
+	'khaki'    : $khaki,
+	'olive'    : $olive,
+	'sage'     : $sage,
+	'slate'    : $slate,
+	'mauve'    : $mauve
+) !default;
+
+$light: (
+	'body'  : #ffffff,
+	'text'  : #333333,
+	'one'   : #0044ff,
+	'two'   : #0044aa,
+	'three' : #0044aa,
+	'four'  : #0044ff,
+	'five'  : #0044aa,
+	'six'   : #0044ff
+);
+$dark: (
+	'body'  : #1e1e1e,
+	'text'  : #ffffff,
+	'one'   : #0044ff,
+	'two'   : #0044cc,
+	'three' : #0044ff,
+	'four'  : #0044cc,
+	'five'  : #0044aa,
+	'six'   : #0044ff
+);
+$extra: $color_map;
 
 $red-100:  f.lighten( $red, 95% ) !default;
 $red-200:  f.lighten( $red, 90% ) !default;
@@ -903,4 +961,60 @@ $mauve_map: (
 	'mauve-1000' : $mauve-1000,
 	'mauve-1100' : $mauve-1100,
 	'mauve-1200' : $mauve-1200
+) !default;
+
+$vanilla-100:  f.lighten( $vanilla, 95% ) !default;
+$vanilla-200:  f.lighten( $vanilla, 90% ) !default;
+$vanilla-300:  f.lighten( $vanilla, 85% ) !default;
+$vanilla-400:  f.lighten( $vanilla, 80% ) !default;
+$vanilla-500:  f.lighten( $vanilla, 70% ) !default;
+$vanilla-600:  f.lighten( $vanilla, 60% ) !default;
+$vanilla-700:  f.lighten( $vanilla, 50% ) !default;
+$vanilla-800:  f.lighten( $vanilla, 40% ) !default;
+$vanilla-900:  f.lighten( $vanilla, 30% ) !default;
+$vanilla-1000:  f.lighten( $vanilla, 20% ) !default;
+$vanilla-1100:  f.lighten( $vanilla, 10% ) !default;
+$vanilla-1200:  $vanilla !default;
+
+$vanilla_map: (
+	'vanilla-100'  : $vanilla-100,
+	'vanilla-200'  : $vanilla-200,
+	'vanilla-300'  : $vanilla-300,
+	'vanilla-400'  : $vanilla-400,
+	'vanilla-500'  : $vanilla-500,
+	'vanilla-600'  : $vanilla-600,
+	'vanilla-700'  : $vanilla-700,
+	'vanilla-800'  : $vanilla-800,
+	'vanilla-900'  : $vanilla-900,
+	'vanilla-1000' : $vanilla-1000,
+	'vanilla-1100' : $vanilla-1100,
+	'vanilla-1200' : $vanilla-1200
+) !default;
+
+$chocolate-100:  f.lighten( $chocolate, 55% ) !default;
+$chocolate-200:  f.lighten( $chocolate, 45% ) !default;
+$chocolate-300:  f.lighten( $chocolate, 40% ) !default;
+$chocolate-400:  f.lighten( $chocolate, 30% ) !default;
+$chocolate-500:  f.lighten( $chocolate, 20% ) !default;
+$chocolate-600:  f.lighten( $chocolate, 10% ) !default;
+$chocolate-700:  f.lighten( $chocolate, 5% ) !default;
+$chocolate-800:  $chocolate !default;
+$chocolate-900:  f.darken( $chocolate, 15% ) !default;
+$chocolate-1000:  f.darken( $chocolate, 30% ) !default;
+$chocolate-1100: f.darken( $chocolate, 45% ) !default;
+$chocolate-1200: f.darken( $chocolate, 60% ) !default;
+
+$chocolate_map: (
+	'chocolate-100'  : $chocolate-100,
+	'chocolate-200'  : $chocolate-200,
+	'chocolate-300'  : $chocolate-300,
+	'chocolate-400'  : $chocolate-400,
+	'chocolate-500'  : $chocolate-500,
+	'chocolate-600'  : $chocolate-600,
+	'chocolate-700'  : $chocolate-700,
+	'chocolate-800'  : $chocolate-800,
+	'chocolate-900'  : $chocolate-900,
+	'chocolate-1000' : $chocolate-1000,
+	'chocolate-1100' : $chocolate-1100,
+	'chocolate-1200' : $chocolate-1200
 ) !default;

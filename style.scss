@@ -46,6 +46,33 @@
 	@each $name, $color in c.$pink_map {
 		--cfe-color--#{$name}: #{$color};
 	}
+	@each $name, $color in c.$coral_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$salmon_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$peach_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$lemon_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$mint_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$aqua_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$sky_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$lavender_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$rose_map {
+		--cfe-color--#{$name}: #{$color};
+	}
 	@each $name, $color in c.$brick_map {
 		--cfe-color--#{$name}: #{$color};
 	}
@@ -73,31 +100,10 @@
 	@each $name, $color in c.$mauve_map {
 		--cfe-color--#{$name}: #{$color};
 	}
-	@each $name, $color in c.$coral_map {
+	@each $name, $color in c.$vanilla_map {
 		--cfe-color--#{$name}: #{$color};
 	}
-	@each $name, $color in c.$salmon_map {
-		--cfe-color--#{$name}: #{$color};
-	}
-	@each $name, $color in c.$peach_map {
-		--cfe-color--#{$name}: #{$color};
-	}
-	@each $name, $color in c.$lemon_map {
-		--cfe-color--#{$name}: #{$color};
-	}
-	@each $name, $color in c.$mint_map {
-		--cfe-color--#{$name}: #{$color};
-	}
-	@each $name, $color in c.$aqua_map {
-		--cfe-color--#{$name}: #{$color};
-	}
-	@each $name, $color in c.$sky_map {
-		--cfe-color--#{$name}: #{$color};
-	}
-	@each $name, $color in c.$lavender_map {
-		--cfe-color--#{$name}: #{$color};
-	}
-	@each $name, $color in c.$rose_map {
+	@each $name, $color in c.$chocolate_map {
 		--cfe-color--#{$name}: #{$color};
 	}
 }
