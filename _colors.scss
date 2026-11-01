@@ -26,6 +26,7 @@ $mint:      #aaffaa !default;
 $aqua:      #88ffee !default;
 $sky:       #99ccff !default;
 $lavender:  #ccbbff !default;
+$orchid:    #ee99ee !default;
 $rose:      #ffaacc !default;
 $brick:     #cc6666 !default;
 $camel:     #cc9966 !default;
@@ -34,66 +35,9 @@ $tan:       #ccbb66 !default;
 $khaki:     #cccc99 !default;
 $olive:     #999966 !default;
 $sage:      #99bb99 !default;
+$denim:     #6699bb !default;
 $slate:     #aaaabb !default;
 $mauve:     #ccaabb !default;
-$vanilla:   #ffffcc !default;
-$chocolate: #663300 !default;
-
-$color_map: (
-	'red'      : $red,
-	'orange'   : $orange,
-	'amber'    : $amber,
-	'yellow'   : $yellow,
-	'lime'     : $lime,
-	'green'    : $green,
-	'teal'     : $teal,
-	'cyan'     : $cyan,
-	'blue'     : $blue,
-	'indigo'   : $indigo,
-	'violet'   : $violet,
-	'purple'   : $purple,
-	'pink'     : $pink,
-	'coral'    : $coral,
-	'salmon'   : $salmon,
-	'peach'    : $peach,
-	'lemon'    : $lemon,
-	'mint'     : $mint,
-	'aqua'     : $aqua,
-	'sky'      : $sky,
-	'lavender' : $lavender,
-	'rose'     : $rose,
-	'brick'    : $brick,
-	'camel'    : $camel,
-	'brown'    : $brown,
-	'tan'      : $tan,
-	'khaki'    : $khaki,
-	'olive'    : $olive,
-	'sage'     : $sage,
-	'slate'    : $slate,
-	'mauve'    : $mauve
-) !default;
-
-$light: (
-	'body'  : #ffffff,
-	'text'  : #333333,
-	'one'   : #0044ff,
-	'two'   : #0044aa,
-	'three' : #0044aa,
-	'four'  : #0044ff,
-	'five'  : #0044aa,
-	'six'   : #0044ff
-);
-$dark: (
-	'body'  : #1e1e1e,
-	'text'  : #ffffff,
-	'one'   : #0044ff,
-	'two'   : #0044cc,
-	'three' : #0044ff,
-	'four'  : #0044cc,
-	'five'  : #0044aa,
-	'six'   : #0044ff
-);
-$extra: $color_map;
 
 $red-100:  f.lighten( $red, 95% ) !default;
 $red-200:  f.lighten( $red, 90% ) !default;
@@ -683,6 +627,34 @@ $lavender_map: (
 	'lavender-1200' : $lavender-1200
 ) !default;
 
+$orchid-100:  f.lighten( $orchid, 95% ) !default;
+$orchid-200:  f.lighten( $orchid, 90% ) !default;
+$orchid-300:  f.lighten( $orchid, 80% ) !default;
+$orchid-400:  f.lighten( $orchid, 60% ) !default;
+$orchid-500:  f.lighten( $orchid, 40% ) !default;
+$orchid-600:  f.lighten( $orchid, 20% ) !default;
+$orchid-700:  $orchid !default;
+$orchid-800:  f.darken( $orchid, 15% ) !default;
+$orchid-900:  f.darken( $orchid, 30% ) !default;
+$orchid-1000: f.darken( $orchid, 45% ) !default;
+$orchid-1100: f.darken( $orchid, 60% ) !default;
+$orchid-1200: f.darken( $orchid, 75% ) !default;
+
+$orchid_map: (
+	'orchid-100'  : $orchid-100,
+	'orchid-200'  : $orchid-200,
+	'orchid-300'  : $orchid-300,
+	'orchid-400'  : $orchid-400,
+	'orchid-500'  : $orchid-500,
+	'orchid-600'  : $orchid-600,
+	'orchid-700'  : $orchid-700,
+	'orchid-800'  : $orchid-800,
+	'orchid-900'  : $orchid-900,
+	'orchid-1000' : $orchid-1000,
+	'orchid-1100' : $orchid-1100,
+	'orchid-1200' : $orchid-1200
+) !default;
+
 $rose-100:  f.lighten( $rose, 95% ) !default;
 $rose-200:  f.lighten( $rose, 90% ) !default;
 $rose-300:  f.lighten( $rose, 80% ) !default;
@@ -907,6 +879,34 @@ $sage_map: (
 	'sage-1200' : $sage-1200
 ) !default;
 
+$denim-100:  f.lighten( $denim, 95% ) !default;
+$denim-200:  f.lighten( $denim, 90% ) !default;
+$denim-300:  f.lighten( $denim, 80% ) !default;
+$denim-400:  f.lighten( $denim, 60% ) !default;
+$denim-500:  f.lighten( $denim, 40% ) !default;
+$denim-600:  f.lighten( $denim, 20% ) !default;
+$denim-700:  $denim !default;
+$denim-800:  f.darken( $denim, 15% ) !default;
+$denim-900:  f.darken( $denim, 30% ) !default;
+$denim-1000: f.darken( $denim, 45% ) !default;
+$denim-1100: f.darken( $denim, 60% ) !default;
+$denim-1200: f.darken( $denim, 75% ) !default;
+
+$denim_map: (
+	'denim-100'  : $denim-100,
+	'denim-200'  : $denim-200,
+	'denim-300'  : $denim-300,
+	'denim-400'  : $denim-400,
+	'denim-500'  : $denim-500,
+	'denim-600'  : $denim-600,
+	'denim-700'  : $denim-700,
+	'denim-800'  : $denim-800,
+	'denim-900'  : $denim-900,
+	'denim-1000' : $denim-1000,
+	'denim-1100' : $denim-1100,
+	'denim-1200' : $denim-1200
+) !default;
+
 $slate-100:  f.lighten( $slate, 95% ) !default;
 $slate-200:  f.lighten( $slate, 90% ) !default;
 $slate-300:  f.lighten( $slate, 80% ) !default;
@@ -961,60 +961,4 @@ $mauve_map: (
 	'mauve-1000' : $mauve-1000,
 	'mauve-1100' : $mauve-1100,
 	'mauve-1200' : $mauve-1200
-) !default;
-
-$vanilla-100:  f.lighten( $vanilla, 95% ) !default;
-$vanilla-200:  f.lighten( $vanilla, 90% ) !default;
-$vanilla-300:  f.lighten( $vanilla, 85% ) !default;
-$vanilla-400:  f.lighten( $vanilla, 80% ) !default;
-$vanilla-500:  f.lighten( $vanilla, 70% ) !default;
-$vanilla-600:  f.lighten( $vanilla, 60% ) !default;
-$vanilla-700:  f.lighten( $vanilla, 50% ) !default;
-$vanilla-800:  f.lighten( $vanilla, 40% ) !default;
-$vanilla-900:  f.lighten( $vanilla, 30% ) !default;
-$vanilla-1000:  f.lighten( $vanilla, 20% ) !default;
-$vanilla-1100:  f.lighten( $vanilla, 10% ) !default;
-$vanilla-1200:  $vanilla !default;
-
-$vanilla_map: (
-	'vanilla-100'  : $vanilla-100,
-	'vanilla-200'  : $vanilla-200,
-	'vanilla-300'  : $vanilla-300,
-	'vanilla-400'  : $vanilla-400,
-	'vanilla-500'  : $vanilla-500,
-	'vanilla-600'  : $vanilla-600,
-	'vanilla-700'  : $vanilla-700,
-	'vanilla-800'  : $vanilla-800,
-	'vanilla-900'  : $vanilla-900,
-	'vanilla-1000' : $vanilla-1000,
-	'vanilla-1100' : $vanilla-1100,
-	'vanilla-1200' : $vanilla-1200
-) !default;
-
-$chocolate-100:  f.lighten( $chocolate, 55% ) !default;
-$chocolate-200:  f.lighten( $chocolate, 45% ) !default;
-$chocolate-300:  f.lighten( $chocolate, 40% ) !default;
-$chocolate-400:  f.lighten( $chocolate, 30% ) !default;
-$chocolate-500:  f.lighten( $chocolate, 20% ) !default;
-$chocolate-600:  f.lighten( $chocolate, 10% ) !default;
-$chocolate-700:  f.lighten( $chocolate, 5% ) !default;
-$chocolate-800:  $chocolate !default;
-$chocolate-900:  f.darken( $chocolate, 15% ) !default;
-$chocolate-1000:  f.darken( $chocolate, 30% ) !default;
-$chocolate-1100: f.darken( $chocolate, 45% ) !default;
-$chocolate-1200: f.darken( $chocolate, 60% ) !default;
-
-$chocolate_map: (
-	'chocolate-100'  : $chocolate-100,
-	'chocolate-200'  : $chocolate-200,
-	'chocolate-300'  : $chocolate-300,
-	'chocolate-400'  : $chocolate-400,
-	'chocolate-500'  : $chocolate-500,
-	'chocolate-600'  : $chocolate-600,
-	'chocolate-700'  : $chocolate-700,
-	'chocolate-800'  : $chocolate-800,
-	'chocolate-900'  : $chocolate-900,
-	'chocolate-1000' : $chocolate-1000,
-	'chocolate-1100' : $chocolate-1100,
-	'chocolate-1200' : $chocolate-1200
 ) !default;

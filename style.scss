@@ -70,6 +70,9 @@
 	@each $name, $color in c.$lavender_map {
 		--cfe-color--#{$name}: #{$color};
 	}
+	@each $name, $color in c.$orchid_map {
+		--cfe-color--#{$name}: #{$color};
+	}
 	@each $name, $color in c.$rose_map {
 		--cfe-color--#{$name}: #{$color};
 	}
@@ -94,16 +97,13 @@
 	@each $name, $color in c.$sage_map {
 		--cfe-color--#{$name}: #{$color};
 	}
+	@each $name, $color in c.$denim_map {
+		--cfe-color--#{$name}: #{$color};
+	}
 	@each $name, $color in c.$slate_map {
 		--cfe-color--#{$name}: #{$color};
 	}
 	@each $name, $color in c.$mauve_map {
-		--cfe-color--#{$name}: #{$color};
-	}
-	@each $name, $color in c.$vanilla_map {
-		--cfe-color--#{$name}: #{$color};
-	}
-	@each $name, $color in c.$chocolate_map {
 		--cfe-color--#{$name}: #{$color};
 	}
 }
