@@ -23,8 +23,10 @@ $salmon:    #ff9966 !default;
 $peach:     #ffcc99 !default;
 $lemon:     #ffff99 !default;
 $mint:      #aaffaa !default;
-$aqua:      #88ffee !default;
-$sky:       #99ccff !default;
+$seafoam:   #88ffdd !default;
+$turquoise: #88ffee !default;
+$sky:       #99eeff !default;
+$periwinkle: #bbccff !default;
 $lavender:  #ccbbff !default;
 $orchid:    #ee99ee !default;
 $rose:      #ffaacc !default;
@@ -543,32 +545,60 @@ $mint_map: (
 	'mint-1200' : $mint-1200
 ) !default;
 
-$aqua-100:  f.lighten( $aqua, 95% ) !default;
-$aqua-200:  f.lighten( $aqua, 90% ) !default;
-$aqua-300:  f.lighten( $aqua, 80% ) !default;
-$aqua-400:  f.lighten( $aqua, 60% ) !default;
-$aqua-500:  f.lighten( $aqua, 40% ) !default;
-$aqua-600:  f.lighten( $aqua, 20% ) !default;
-$aqua-700:  $aqua !default;
-$aqua-800:  f.darken( $aqua, 15% ) !default;
-$aqua-900:  f.darken( $aqua, 30% ) !default;
-$aqua-1000: f.darken( $aqua, 45% ) !default;
-$aqua-1100: f.darken( $aqua, 60% ) !default;
-$aqua-1200: f.darken( $aqua, 75% ) !default;
+$seafoam-100:  f.lighten( $seafoam, 95% ) !default;
+$seafoam-200:  f.lighten( $seafoam, 90% ) !default;
+$seafoam-300:  f.lighten( $seafoam, 80% ) !default;
+$seafoam-400:  f.lighten( $seafoam, 60% ) !default;
+$seafoam-500:  f.lighten( $seafoam, 40% ) !default;
+$seafoam-600:  f.lighten( $seafoam, 20% ) !default;
+$seafoam-700:  $seafoam !default;
+$seafoam-800:  f.darken( $seafoam, 15% ) !default;
+$seafoam-900:  f.darken( $seafoam, 30% ) !default;
+$seafoam-1000: f.darken( $seafoam, 45% ) !default;
+$seafoam-1100: f.darken( $seafoam, 60% ) !default;
+$seafoam-1200: f.darken( $seafoam, 75% ) !default;
 
-$aqua_map: (
-	'aqua-100'  : $aqua-100,
-	'aqua-200'  : $aqua-200,
-	'aqua-300'  : $aqua-300,
-	'aqua-400'  : $aqua-400,
-	'aqua-500'  : $aqua-500,
-	'aqua-600'  : $aqua-600,
-	'aqua-700'  : $aqua-700,
-	'aqua-800'  : $aqua-800,
-	'aqua-900'  : $aqua-900,
-	'aqua-1000' : $aqua-1000,
-	'aqua-1100' : $aqua-1100,
-	'aqua-1200' : $aqua-1200
+$seafoam_map: (
+	'seafoam-100'  : $seafoam-100,
+	'seafoam-200'  : $seafoam-200,
+	'seafoam-300'  : $seafoam-300,
+	'seafoam-400'  : $seafoam-400,
+	'seafoam-500'  : $seafoam-500,
+	'seafoam-600'  : $seafoam-600,
+	'seafoam-700'  : $seafoam-700,
+	'seafoam-800'  : $seafoam-800,
+	'seafoam-900'  : $seafoam-900,
+	'seafoam-1000' : $seafoam-1000,
+	'seafoam-1100' : $seafoam-1100,
+	'seafoam-1200' : $seafoam-1200
+) !default;
+
+$turquoise-100:  f.lighten( $turquoise, 95% ) !default;
+$turquoise-200:  f.lighten( $turquoise, 90% ) !default;
+$turquoise-300:  f.lighten( $turquoise, 80% ) !default;
+$turquoise-400:  f.lighten( $turquoise, 60% ) !default;
+$turquoise-500:  f.lighten( $turquoise, 40% ) !default;
+$turquoise-600:  f.lighten( $turquoise, 20% ) !default;
+$turquoise-700:  $turquoise !default;
+$turquoise-800:  f.darken( $turquoise, 15% ) !default;
+$turquoise-900:  f.darken( $turquoise, 30% ) !default;
+$turquoise-1000: f.darken( $turquoise, 45% ) !default;
+$turquoise-1100: f.darken( $turquoise, 60% ) !default;
+$turquoise-1200: f.darken( $turquoise, 75% ) !default;
+
+$turquoise_map: (
+	'turquoise-100'  : $turquoise-100,
+	'turquoise-200'  : $turquoise-200,
+	'turquoise-300'  : $turquoise-300,
+	'turquoise-400'  : $turquoise-400,
+	'turquoise-500'  : $turquoise-500,
+	'turquoise-600'  : $turquoise-600,
+	'turquoise-700'  : $turquoise-700,
+	'turquoise-800'  : $turquoise-800,
+	'turquoise-900'  : $turquoise-900,
+	'turquoise-1000' : $turquoise-1000,
+	'turquoise-1100' : $turquoise-1100,
+	'turquoise-1200' : $turquoise-1200
 ) !default;
 
 $sky-100:  f.lighten( $sky, 95% ) !default;
@@ -597,6 +627,34 @@ $sky_map: (
 	'sky-1000' : $sky-1000,
 	'sky-1100' : $sky-1100,
 	'sky-1200' : $sky-1200
+) !default;
+
+$periwinkle-100:  f.lighten( $periwinkle, 95% ) !default;
+$periwinkle-200:  f.lighten( $periwinkle, 90% ) !default;
+$periwinkle-300:  f.lighten( $periwinkle, 80% ) !default;
+$periwinkle-400:  f.lighten( $periwinkle, 60% ) !default;
+$periwinkle-500:  f.lighten( $periwinkle, 40% ) !default;
+$periwinkle-600:  f.lighten( $periwinkle, 20% ) !default;
+$periwinkle-700:  $periwinkle !default;
+$periwinkle-800:  f.darken( $periwinkle, 15% ) !default;
+$periwinkle-900:  f.darken( $periwinkle, 30% ) !default;
+$periwinkle-1000: f.darken( $periwinkle, 45% ) !default;
+$periwinkle-1100: f.darken( $periwinkle, 60% ) !default;
+$periwinkle-1200: f.darken( $periwinkle, 75% ) !default;
+
+$periwinkle_map: (
+	'periwinkle-100'  : $periwinkle-100,
+	'periwinkle-200'  : $periwinkle-200,
+	'periwinkle-300'  : $periwinkle-300,
+	'periwinkle-400'  : $periwinkle-400,
+	'periwinkle-500'  : $periwinkle-500,
+	'periwinkle-600'  : $periwinkle-600,
+	'periwinkle-700'  : $periwinkle-700,
+	'periwinkle-800'  : $periwinkle-800,
+	'periwinkle-900'  : $periwinkle-900,
+	'periwinkle-1000' : $periwinkle-1000,
+	'periwinkle-1100' : $periwinkle-1100,
+	'periwinkle-1200' : $periwinkle-1200
 ) !default;
 
 $lavender-100:  f.lighten( $lavender, 95% ) !default;
