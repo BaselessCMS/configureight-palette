@@ -88,10 +88,10 @@
 	@each $name, $color in c.$camel_map {
 		--cfe-color--#{$name}: #{$color};
 	}
-	@each $name, $color in c.$brown_map {
+	@each $name, $color in c.$saddle_map {
 		--cfe-color--#{$name}: #{$color};
 	}
-	@each $name, $color in c.$tan_map {
+	@each $name, $color in c.$sand_map {
 		--cfe-color--#{$name}: #{$color};
 	}
 	@each $name, $color in c.$khaki_map {
@@ -106,10 +106,13 @@
 	@each $name, $color in c.$denim_map {
 		--cfe-color--#{$name}: #{$color};
 	}
-	@each $name, $color in c.$slate_map {
+	@each $name, $color in c.$mauve_map {
 		--cfe-color--#{$name}: #{$color};
 	}
-	@each $name, $color in c.$mauve_map {
+	@each $name, $color in c.$antique_map {
+		--cfe-color--#{$name}: #{$color};
+	}
+	@each $name, $color in c.$slate_map {
 		--cfe-color--#{$name}: #{$color};
 	}
 }
