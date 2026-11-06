@@ -1,6 +1,5 @@
 {
 	"red" : {
-		"label" : "Configure 8 Red",
 		"100"   : "#fef2f2",
 		"200"   : "#fde6e6",
 		"300"   : "#fccccc",
@@ -15,7 +14,6 @@
 		"1200"  : "#3c0000"
 	},
 	"orange" : {
-		"label" : "Configure 8 Orange",
 		"100"   : "#fef7f2",
 		"200"   : "#fdf0e6",
 		"300"   : "#fce0cc",
@@ -30,7 +28,6 @@
 		"1200"  : "#3c1a00"
 	},
 	"amber" : {
-		"label" : "Configure 8 Amber",
 		"100"   : "#fffcf6",
 		"200"   : "#fffaec",
 		"300"   : "#fff5da",
@@ -45,7 +42,6 @@
 		"1200"  : "#403311"
 	},
 	"yellow" : {
-		"label" : "Configure 8 Yellow",
 		"100"   : "#fffef2",
 		"200"   : "#fffde6",
 		"300"   : "#fffccc",
@@ -60,7 +56,6 @@
 		"1200"  : "#403c00"
 	},
 	"lime" : {
-		"label" : "Configure 8 Lime",
 		"100"   : "#f2fef2",
 		"200"   : "#e6fde6",
 		"300"   : "#ccfccc",
@@ -75,7 +70,6 @@
 		"1200"  : "#003c00"
 	},
 	"green" : {
-		"label" : "Configure 8 Green",
 		"100"   : "#f2fcf2",
 		"200"   : "#e6f8e6",
 		"300"   : "#ccf1cc",
@@ -90,7 +84,6 @@
 		"1200"  : "#002f00"
 	},
 	"teal" : {
-		"label" : "Configure 8 Teal",
 		"100"   : "#f2fdfb",
 		"200"   : "#e6fcf7",
 		"300"   : "#ccf8ee",
@@ -105,7 +98,6 @@
 		"1200"  : "#00372b"
 	},
 	"cyan" : {
-		"label" : "Configure 8 Cyan",
 		"100"   : "#f2fcfe",
 		"200"   : "#e6fafd",
 		"300"   : "#ccf5fc",
@@ -120,7 +112,6 @@
 		"1200"  : "#00333c"
 	},
 	"blue" : {
-		"label" : "Configure 8 Blue",
 		"100"   : "#f2f6fd",
 		"200"   : "#e6ecfc",
 		"300"   : "#ccdaf8",
@@ -135,7 +126,6 @@
 		"1200"  : "#001137"
 	},
 	"indigo" : {
-		"label" : "Configure 8 Indigo",
 		"100"   : "#f8f2fe",
 		"200"   : "#f2e6fd",
 		"300"   : "#e4ccfc",
@@ -150,7 +140,6 @@
 		"1200"  : "#1e003c"
 	},
 	"violet" : {
-		"label" : "Configure 8 Violet",
 		"100"   : "#f8f3fc",
 		"200"   : "#f1e7f8",
 		"300"   : "#e4cff1",
@@ -165,7 +154,6 @@
 		"1200"  : "#1e042f"
 	},
 	"purple" : {
-		"label" : "Configure 8 Purple",
 		"100"   : "#fcf2fb",
 		"200"   : "#fae6f7",
 		"300"   : "#f5ccee",
@@ -180,7 +168,6 @@
 		"1200"  : "#33002b"
 	},
 	"pink" : {
-		"label" : "Configure 8 Pink",
 		"100"   : "#fff7fd",
 		"200"   : "#ffeefc",
 		"300"   : "#ffddf8",
@@ -195,7 +182,6 @@
 		"1200"  : "#401537"
 	},
 	"coral" : {
-		"label" : "Configure 8 Coral",
 		"100"   : "#fff7f7",
 		"200"   : "#fff0f0",
 		"300"   : "#ffe0e0",
@@ -210,7 +196,6 @@
 		"1200"  : "#401a1a"
 	},
 	"salmon" : {
-		"label" : "Configure 8 Salmon",
 		"100"   : "#fffaf7",
 		"200"   : "#fff5f0",
 		"300"   : "#ffebe0",
@@ -225,7 +210,6 @@
 		"1200"  : "#40261a"
 	},
 	"peach" : {
-		"label" : "Configure 8 Peach",
 		"100"   : "#fffcfa",
 		"200"   : "#fffaf5",
 		"300"   : "#fff5eb",
@@ -240,7 +224,6 @@
 		"1200"  : "#403326"
 	},
 	"lemon" : {
-		"label" : "Configure 8 Lemon",
 		"100"   : "#fffffa",
 		"200"   : "#fffff5",
 		"300"   : "#ffffeb",
@@ -255,7 +238,6 @@
 		"1200"  : "#404026"
 	},
 	"mint" : {
-		"label" : "Configure 8 Mint",
 		"100"   : "#fbfffb",
 		"200"   : "#f7fff7",
 		"300"   : "#eeffee",
@@ -270,7 +252,6 @@
 		"1200"  : "#2b402b"
 	},
 	"seafoam" : {
-		"label" : "Configure 8 Seafoam",
 		"100"   : "#f9fffc",
 		"200"   : "#f3fffa",
 		"300"   : "#e7fff5",
@@ -285,7 +266,6 @@
 		"1200"  : "#224033"
 	},
 	"turquoise" : {
-		"label" : "Configure 8 Turquoise",
 		"100"   : "#f9fffe",
 		"200"   : "#f3fffd",
 		"300"   : "#e7fffc",
@@ -300,7 +280,6 @@
 		"1200"  : "#22403c"
 	},
 	"sky" : {
-		"label" : "Configure 8 Sky",
 		"100"   : "#fafeff",
 		"200"   : "#f5fdff",
 		"300"   : "#ebfcff",
@@ -315,7 +294,6 @@
 		"1200"  : "#263c40"
 	},
 	"periwinkle" : {
-		"label" : "Configure 8 Periwinkle",
 		"100"   : "#fcfcff",
 		"200"   : "#f8faff",
 		"300"   : "#f1f5ff",
@@ -330,7 +308,6 @@
 		"1200"  : "#2f3340"
 	},
 	"lavender" : {
-		"label" : "Configure 8 Lavender",
 		"100"   : "#fcfcff",
 		"200"   : "#faf8ff",
 		"300"   : "#f5f1ff",
@@ -345,7 +322,6 @@
 		"1200"  : "#332f40"
 	},
 	"orchid" : {
-		"label" : "Configure 8 Orchid",
 		"100"   : "#fefafe",
 		"200"   : "#fdf5fd",
 		"300"   : "#fcebfc",
@@ -360,7 +336,6 @@
 		"1200"  : "#3c263c"
 	},
 	"rose" : {
-		"label" : "Configure 8 Rose",
 		"100"   : "#fffbfc",
 		"200"   : "#fff7fa",
 		"300"   : "#ffeef5",
@@ -375,7 +350,6 @@
 		"1200"  : "#402b33"
 	},
 	"brick" : {
-		"label" : "Configure 8 Brick",
 		"100"   : "#fcf7f7",
 		"200"   : "#faf0f0",
 		"300"   : "#f5e0e0",
@@ -390,7 +364,6 @@
 		"1200"  : "#331a1a"
 	},
 	"camel" : {
-		"label" : "Configure 8 Camel",
 		"100"   : "#fcfaf7",
 		"200"   : "#faf5f0",
 		"300"   : "#f5ebe0",
@@ -405,7 +378,6 @@
 		"1200"  : "#33261a"
 	},
 	"saddle" : {
-		"label" : "Configure 8 Saddle",
 		"100"   : "#faf7f5",
 		"200"   : "#f5f0eb",
 		"300"   : "#ebe0d6",
@@ -420,7 +392,6 @@
 		"1200"  : "#261a0d"
 	},
 	"sand" : {
-		"label" : "Configure 8 Sand",
 		"100"   : "#fcfcf9",
 		"200"   : "#faf8f3",
 		"300"   : "#f5f1e7",
@@ -435,7 +406,6 @@
 		"1200"  : "#332f22"
 	},
 	"khaki" : {
-		"label" : "Configure 8 Khaki",
 		"100"   : "#fcfcfa",
 		"200"   : "#fafaf5",
 		"300"   : "#f5f5eb",
@@ -450,7 +420,6 @@
 		"1200"  : "#333326"
 	},
 	"olive" : {
-		"label" : "Configure 8 Olive",
 		"100"   : "#fafaf7",
 		"200"   : "#f5f5f0",
 		"300"   : "#ebebe0",
@@ -465,7 +434,6 @@
 		"1200"  : "#26261a"
 	},
 	"sage" : {
-		"label" : "Configure 8 Sage",
 		"100"   : "#fafcfa",
 		"200"   : "#f5f8f5",
 		"300"   : "#ebf1eb",
@@ -480,7 +448,6 @@
 		"1200"  : "#262f26"
 	},
 	"denim" : {
-		"label" : "Configure 8 Denim",
 		"100"   : "#f7fafc",
 		"200"   : "#f0f5f8",
 		"300"   : "#e0ebf1",
@@ -495,7 +462,6 @@
 		"1200"  : "#1a262f"
 	},
 	"mauve" : {
-		"label" : "Configure 8 Mauve",
 		"100"   : "#fcfbfc",
 		"200"   : "#faf7f8",
 		"300"   : "#f5eef1",
@@ -510,7 +476,6 @@
 		"1200"  : "#332b2f"
 	},
 	"antique" : {
-		"label" : "Configure 8 Antique",
 		"100"   : "#fdfbfb",
 		"200"   : "#fcf7f7",
 		"300"   : "#f8eeee",
@@ -525,7 +490,6 @@
 		"1200"  : "#372b2b"
 	},
 	"slate" : {
-		"label" : "Configure 8 Slate",
 		"100"   : "#fbfbfc",
 		"200"   : "#f7f7f8",
 		"300"   : "#eeeef1",
