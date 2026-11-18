@@ -111,6 +111,9 @@
 	@each $name, $color in c.$antique_map {
 		--cfe-color--#{$name}: #{$color};
 	}
+	@each $name, $color in c.$taupe_map {
+		--cfe-color--#{$name}: #{$color};
+	}
 	@each $name, $color in c.$slate_map {
 		--cfe-color--#{$name}: #{$color};
 	}
